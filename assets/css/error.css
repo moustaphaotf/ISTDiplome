@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    padding: 20px;
+}
+
+.error-code {
+    font-size: 6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #A78920;
+}
+
+.goto-home a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #A78920;
+}

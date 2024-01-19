@@ -1,0 +1,68 @@
+:root {
+    --ma-couleur: #A78920;
+}
+
+body {
+    text-align: center;
+}
+
+.diplome {
+    border: 10px solid var(--ma-couleur);
+    border-radius: 10px;
+    width: 680px; 
+    margin: auto;
+    padding-top: 10px; 
+}
+
+.diplome h1 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.diplome h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.diplome h1, .diplome h2, .diplome .fullname {
+    color: var(--ma-couleur);
+}
+
+.badge {
+    margin-top: -10px; 
+}
+
+.badge img {
+    width: 50px;
+}
+
+button {
+    margin-top: 30px;
+    background-color: var(--ma-couleur);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    color: #FFFFFF;
+    border-radius: 10px; 
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button img {
+    width: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.ligne {
+    background-color: black;
+    height: 5px;
+    width: 90%;
+    margin: auto;
+}

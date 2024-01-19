@@ -1,0 +1,39 @@
+:root {
+    /* On peut déclarer des variables en CSS */
+    --ma-couleur: #A78920;
+}
+
+div {
+    border:  2px solid var(--ma-couleur);
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--ma-couleur);
+}
+
+form {
+    margin-top: 4rem;
+}
+
+input {
+    border: 1px solid var(--ma-couleur);
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--ma-couleur);
+    color: white;
+    border: 1px solid var(--ma-couleur);
+    margin: 10px;
+}
